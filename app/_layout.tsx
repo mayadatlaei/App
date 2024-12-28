@@ -8,7 +8,7 @@ const _layout = () => {
   return (
     <ProductProvider>
     <Stack>
-      <Stack.Screen name='index' />
+      <Stack.Screen name='login' />
       <Stack.Screen name='ProductDescr' />
        <Stack.Screen name='categoryItem'/>
        
