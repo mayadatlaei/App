@@ -105,8 +105,8 @@ import React from 'react'
 import { router } from 'expo-router'
 
 setTimeout(() => {
-  router.replace("/login")
-})
+  router.replace("/loginAuth")//login
+}, 2000 )
 
 const index = () => {
   return (
